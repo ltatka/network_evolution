@@ -1,0 +1,1 @@
+/usr/bin/cc  -D_POSIX_C_SOURCE=199309L -O3 -DNDEBUG   CMakeFiles/idaSlCrank_dns.dir/idaSlCrank_dns.c.o  -o idaSlCrank_dns  -Wl,-rpath,/home/hellsbells/Desktop/evolution/sundials/build/src/ida:/home/hellsbells/Desktop/evolution/sundials/build/src/nvector/serial ../../../src/ida/libsundials_ida.so.6.1.0 ../../../src/nvector/serial/libsundials_nvecserial.so.6.1.0 -lm 

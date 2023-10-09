@@ -1,0 +1,1 @@
+/usr/bin/cc  -D_POSIX_C_SOURCE=199309L -O3 -DNDEBUG   CMakeFiles/ark_heat1D_adapt.dir/ark_heat1D_adapt.c.o  -o ark_heat1D_adapt  -Wl,-rpath,/home/hellsbells/Desktop/evolution/sundials/build/src/arkode:/home/hellsbells/Desktop/evolution/sundials/build/src/nvector/serial ../../../src/arkode/libsundials_arkode.so.5.1.0 ../../../src/nvector/serial/libsundials_nvecserial.so.6.1.0 -lm 

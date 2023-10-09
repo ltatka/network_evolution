@@ -1,0 +1,1 @@
+/usr/bin/cc  -D_POSIX_C_SOURCE=199309L -O3 -DNDEBUG   CMakeFiles/idaHeat2D_kry.dir/idaHeat2D_kry.c.o  -o idaHeat2D_kry  -Wl,-rpath,/home/hellsbells/Desktop/evolution/sundials/build/src/ida:/home/hellsbells/Desktop/evolution/sundials/build/src/nvector/serial ../../../src/ida/libsundials_ida.so.6.1.0 ../../../src/nvector/serial/libsundials_nvecserial.so.6.1.0 -lm 

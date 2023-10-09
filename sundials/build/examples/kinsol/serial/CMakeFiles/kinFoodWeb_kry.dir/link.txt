@@ -1,0 +1,1 @@
+/usr/bin/cc  -D_POSIX_C_SOURCE=199309L -O3 -DNDEBUG   CMakeFiles/kinFoodWeb_kry.dir/kinFoodWeb_kry.c.o  -o kinFoodWeb_kry  -Wl,-rpath,/home/hellsbells/Desktop/evolution/sundials/build/src/kinsol:/home/hellsbells/Desktop/evolution/sundials/build/src/nvector/serial ../../../src/kinsol/libsundials_kinsol.so.6.1.0 ../../../src/nvector/serial/libsundials_nvecserial.so.6.1.0 -lm 
